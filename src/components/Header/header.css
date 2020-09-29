@@ -1,0 +1,24 @@
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#header h1 {
+  display: inline-block;
+}
+
+#header #burger {
+  transition: height 1s ease;
+  transition: width 1s ease;
+  cursor: pointer;
+}
+
+#header #burger:hover {
+  transition: height 1s ease;
+  transition: width 1s ease;
+  height: 28px;
+  width: 28px;
+}
