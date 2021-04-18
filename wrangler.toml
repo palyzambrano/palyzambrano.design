@@ -1,0 +1,16 @@
+type = 'webpack'
+account_id = ''
+workers_dev = false
+zone_id = ''
+
+[site]
+bucket = './build'
+entry-point = 'workers-site'
+
+[env.production]
+name = 'home'
+route = 'palyzambrano.design/*'
+
+[env.staging]
+name = 'home-staging'
+route = 'staging.palyzambrano.design/*'
